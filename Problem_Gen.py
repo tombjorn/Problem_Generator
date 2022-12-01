@@ -9,7 +9,7 @@ r = random.randint(1, n)
 # open with the interntion of writing
 File_object = open("Problem_File.py", "w")
 
-# wrie in problem
+# write in problem
 File_object.write('# {} \n'.format(choices.ProbType[r]))
 File_object.write('{}'.format(choices.fileWriter(r)))
 
